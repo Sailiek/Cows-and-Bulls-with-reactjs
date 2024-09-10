@@ -1,12 +1,12 @@
 import Hello from './hello.jsx';
-import AnswerInput from './answerInput.jsx';
+import AnswerInput from './AnswerInput.jsx';
 
 function App() {
   return (
-    <>
-      <Hello />
-      <AnswerInput />
-    </>
+    <div className='mainDiv'>
+      <Hello/>
+      <AnswerInput  />
+    </div>
   );
 }
 

@@ -2,8 +2,8 @@ import React from 'react'
 
 function Hello() {
   return (
-    <>
-        <h2>Bulls and Cows</h2>
+    <div   className='hello'>
+      <h2>Bulls and Cows</h2>
         <p>
             <span><b>Rules</b></span>
             <ol>
@@ -12,7 +12,7 @@ function Hello() {
                  <li>a correct number in the wrong place = cow</li>
             </ol>
         </p>
-    </>
+    </div>
   )
 }
 

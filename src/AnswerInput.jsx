@@ -38,7 +38,7 @@ function AnswerInput() {
   }
 
   return (
-    <>
+    <div className='input'>
       <input 
         type="text" 
         pattern="\d{4}" 
@@ -50,7 +50,7 @@ function AnswerInput() {
       <button onClick={handleClick}>Test</button>
       <p>Bulls: {bulls}</p>
       <p>Cows: {cows}</p>
-    </>
+    </div>
   );
 }
 
